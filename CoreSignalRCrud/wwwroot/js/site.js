@@ -23,9 +23,9 @@ $(() => {
                         <td>${v.UnitPrice}</td>
                         <td>${v.StockQty}</td>
                         <td>
-                        <a href='../Products/Edit?id=${v.ProdId}'></a>
-                        <a href='../Products/Details?id=${v.ProdId}'></a>
-                        <a href='../Products/Delete?id=${v.ProdId}'></a>
+                        <a href='../Products/Edit?id=${v.ProdId}'>Edit</a> |
+                        <a href='../Products/Details?id=${v.ProdId}'>Detail</a> |
+                        <a href='../Products/Delete?id=${v.ProdId}'>Delete</a>
                         </td>
                     </tr>`
                 })
